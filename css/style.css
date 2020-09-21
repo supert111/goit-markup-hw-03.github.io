@@ -1,0 +1,220 @@
+/* цвет основного текста #757575; */
+/* вторичный цвет текста  rgba(255, 255, 255, 0.6); */
+/* белый #FFFFFF  */
+/* акцент #2196F3; */
+/* тайтл #212121; */
+/* цвет фона Hero и футер #2F303A; */
+/* вторичный цвет фона #F5F4FA; */
+
+:root 
+    {
+        --primary-text-color: #757575;
+        --secondary-text-color: rgba(255, 255, 255, 0.6);
+        --primary-white-color: #ffffff;
+        --accent-color: #2196F3;
+        --title-text-color: #212121;
+        --background-color: #2F303A;
+        --secondary-background-color: #F5F4FA;
+    
+}
+
+/* ============= Body ============= */
+
+/* logo Текст размер */
+.logo {
+font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+}
+/* logo Цвет */
+.color-web {
+  color: var(--accent-color);
+}
+.color-studio {
+  color: var(--primary-white-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+text-decoration: none;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+
+  /* body Текст размер */
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.714;
+  }
+  /* address Текст размер  */
+    .address-nav,
+    .address-nav-footer {
+      font-style: normal;
+  }
+
+  /* section title h2,h3 Текст размер */
+    .section-title,
+    .team .title,
+    .spetsialist {
+      text-align: center;
+ }
+
+/* ============= Body END ============= */
+
+
+/* ======= Site nav ======= */
+.webstudio-nav .link,
+.logo {
+  color: var(--title-text-color);
+}
+
+.webstudio-nav .link:hover,
+.webstudio-nav .link:focus { 
+  color: var(--accent-color); 
+}
+
+.address-nav .link {
+  color: var(--primary-text-color);
+}
+
+.address-nav .link:hover,
+.adsress-nav .link:focus { 
+  color: var(--accent-color); 
+}
+
+/* Site nav Текст размер */
+.webstudio-nav,
+.address-nav {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.143;
+}
+/* ======= Site nav END ======= */
+
+
+/* ======= Hero Шапка Блок банер ======= */
+.hero-title {
+  color: var(--primary-white-color);
+  
+  /* Hero Текст размер*/
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero {
+  background-color: var(--background-color);
+}
+/* ======= Hero Шапка Блок банер END ======= */
+
+
+/* ======= all-team ======= */
+.all-team {
+  background-color: var(--secondary-background-color);
+}
+
+/*all-team Текст размер и portfolio */
+.spetsialist { 
+font-size: 16px;
+line-height: 1.188px;
+}
+
+.gallery-portfolio {
+  font-size: 16px;
+  line-height: 1.875px;
+}
+/* ======= all-team END ======= */
+
+
+/* ======= Button ======= */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--secondary-background-color);
+  
+  /* button Текст размер */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+} 
+
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  
+  /* button primary Текст размер */
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+}
+/* ======= Button END======= */
+
+
+/* ======= SECTION ======= */
+
+/* Section title h2*/
+.section-title {
+  color: var(--title-text-color);
+
+  /* Section title h2 Текст размер */
+font-weight: 700;
+font-size: 36px;
+line-height: 1.167;
+}
+
+/* Section title h3*/
+.section .title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.189;
+}
+
+/* feature list Текст размер */
+.feature .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  text-transform: uppercase;
+}
+
+/* ======= SECTION END ======= */
+
+/* Footer */
+
+.address-footer {
+  color: var(--primary-white-color);
+}
+.footer {
+  background-color: var(--background-color);
+}
+.address-nav-footer .link {
+  color: var(--secondary-text-color);
+}
+
+/* ======= PORTFOLIO ======= */
+  /* section title h2,h3 Текст размер */
+.leftside{ 
+  text-align: inherit;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}

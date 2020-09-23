@@ -29,8 +29,8 @@ font-size: 26px;
 line-height: 1.192;
 width: 145px;
 /* Блочная модель + flex */
-margin-top: 24px;
-margin-bottom: 25px;
+padding-top: 24px;
+padding-bottom: 25px;
 margin-right: 93px;
 }
 /* logo Цвет */
@@ -131,7 +131,8 @@ body {
   line-height: 1.143;
   /* Бллочная модель + flex */
   display: flex;
-  margin: 32px 0px;
+  margin: 0px;
+  padding: 32px 0px;
 }
 .address-nav {
   margin-left: auto;
@@ -147,6 +148,7 @@ margin-right: 50px;
 .position-flex {
   display: flex;
   align-items: center;
+  padding: 0px;
 }
 /* ======= Site nav END ======= */
 
